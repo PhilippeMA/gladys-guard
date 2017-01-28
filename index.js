@@ -1,9 +1,9 @@
 module.exports = function(sails) {
     
     // Connexion aux ressources NETATMO
-    var connection = require('./lib/connection.js');
+    var install = require('./lib/isntall.js');
        
     return {
-        connection
+        install: install
     };
 };
