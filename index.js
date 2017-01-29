@@ -5,7 +5,7 @@ module.exports = function(sails) {
     var uninstall = require('./lib/uninstall.js');
        
     return {
-        install: install
+        install: install,
         uninstall: uninstall
     };
 };
