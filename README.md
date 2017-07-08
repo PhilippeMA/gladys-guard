@@ -21,15 +21,15 @@ gladys.modules.gladysguard.recVid()
   });
 ```
 
-Ajouter la box **Gladys guard** au dashboard. Cette box permettra de lire la dernière vidéo enregistrée.
+Créer un scénario qui permette d'enregistrer une vidéo en appelant le script précédemment créé.
 
-Enfin, créer un scénario qui permette d'enregistrer une vidéo en appelant le script précédemment créé.
+Enfin, ajouter la box **Gladys guard** au dashboard. Cette box permettra de lire la dernière vidéo enregistrée.
 
 Configuration
 -------------
 Lors de l'installation du module, des paramètres sont initialisés. Les voici :
 <li>GUARD_REC_DEVICE : votre caméra</li>
-<li>GUARD_SAVE_LOCATION : répertoire d'archivage des vidéos enregistrées</li>
+<li>GUARD_SAVE_LOCATION : répertoire d'archivage des vidéos enregistrées (les vidéos portent comme nom le timestamp)</li>
 <li>GUARD_LAST_REC : timestamp du dernier enregistrement (en millisecondes)</li>
 <li>GUARD_REC_DURATION : durée de l'enregistrement (sachant qu'à date, l'enregistrement tarde à démarrer...)</li>
 <li>GUARD_RES_WIDTH : résolution horizontale</li>
