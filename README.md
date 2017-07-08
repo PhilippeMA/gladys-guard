@@ -1,15 +1,20 @@
-# gladys-guard
+Gladys Guard
+============
 Module for gladysproject : record and read video file
 
-# Prerequisites
+Pré-requis
+----------
 <li>VLC média player</li>
 
-# Installation
+Installation
+------------
 Une fois le module installé, il est nécessaire de créer un script qui pourra être déclenché pour enregistrer une vidéo. Voici le contenu :
-<script>gladys.modules.gladysguard.recVid()
+```bash
+gladys.modules.gladysguard.recVid()
   .then(function(value){
     console.log(`Enregistrement déclenché : ` + value);
   })
   .catch(function(err){
     console.log(err);
-  });</script>
+  });
+```
