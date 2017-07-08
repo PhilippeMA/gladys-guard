@@ -14,6 +14,7 @@ Installer le module via la transaction Gladys puis redémarrer Gladys :
 <li>URL git : https://github.com/PhilippeMA/gladys-guard.git</li>
 <li>Slug : gladysguard</li>
 
+
 Créer un script qui pourra être déclenché pour enregistrer une vidéo sur déclenchement d'un scénario (lorsqu'un mouvement est détecté, par exemple). Voici le contenu :
 ```bash
 gladys.modules.gladysguard.recVid()
