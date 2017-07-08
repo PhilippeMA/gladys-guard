@@ -8,7 +8,7 @@ Pré-requis
 
 Installation
 ------------
-Une fois le module installé, il est nécessaire de créer un script qui pourra être déclenché pour enregistrer une vidéo. Voici le contenu :
+Une fois le module installé, il est nécessaire de créer un script qui pourra être déclenché pour enregistrer une vidéo sur déclenchement d'un scénario (lorsqu'un mouvement est détecté, par exemple). Voici le contenu :
 ```bash
 gladys.modules.gladysguard.recVid()
   .then(function(value){
