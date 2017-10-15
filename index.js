@@ -10,7 +10,11 @@ module.exports = function(sails) {
         install: install,
         uninstall: uninstall,
         recVid: recVid,
+<<<<<<< HEAD
         //Permet de récupérer le timestamp de la vidéo pour affichage sur la box
+=======
+        //Permet de récupérer le timestamp de la vidéo
+>>>>>>> 6ed8b634e75018b27edbdac25d84fdacdca4d0bd
         routes: {
             after: {
                 'GET /guard': guardController
