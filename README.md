@@ -10,7 +10,7 @@ Installation
 ------------
 Installer le module via la transaction Gladys puis redémarrer Gladys :
 <li>Nom : Gladys guard</li>
-<li>Version : 0.0.1</li>
+<li>Version : 0.0.2</li>
 <li>URL git : https://github.com/PhilippeMA/gladys-guard.git</li>
 <li>Slug : gladysguard</li>
 
